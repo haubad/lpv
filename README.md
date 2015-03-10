@@ -1,2 +1,0 @@
-# lpv
-Light Photo Viewer
