@@ -1,1 +1,59 @@
-Bonjour!
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Light Photo Viewer</title>
+    <link href="css/style-dark.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <meta name="viewport" content="width=device-width">
+</head>
+<body unresolved>
+    <header><h1>Light Photo Viewer</h1></header>
+
+    <div id="main">
+        <div id="home" class='default'>
+            <p><span class="tomato-text">LightPhotoViewer</span> est une application légère et rapide pour visualiser des photos de votre ordinateur. Elle supporte les formats connus.</p>
+            <br>
+            <p>Fonctionnalités sont:</p>
+            <ul>
+                <li>Charger et rendre la photo instantanément</li>
+                <li>Zoomer la photo à un point spécifique</li>
+                <li>Pivoter la photo</li>
+                <li>Supporter les formats BMP, GIF, ICO, JPEG, PNG, TIFF, WDP, HDP</li>
+                <li>Afficher les métadonnées Exif de la photo</li>
+                <li>Pivoter la photo automatiquement en utilisant les métadonnées Exif si elles existent</li>
+                <li>Mode panoramique</li>
+                <li>Redimensionner la photo</li>
+            </ul>
+            <br>
+            <img src="images/ss1.jpg" alt="ss1.jpg">
+            <br>
+            <img src="images/ss2.jpg" alt="ss2.jpg">
+        </div>
+
+        <div id="download" class='alternate'>
+            <h2>Téléchargement</h2>
+            <p>L'application est gratuite: <a href="bin/lpv.zip">LightPhotoViewer v1.70401</a> (January 04 2011, English version, 13,6 MB).</p>
+            <h3>Système minimum requis</h3>
+            <ul>
+                <li>Windows 7, 8, 10 (recommandés), Windows Vista SP2</li>
+                <li>DirectX. Si un message d'erreur s'affiche comme "d2d1.dll and dwrite.dll not found", vous devez installer un des paquets suivants:</li>
+                <ul>
+                    <li><a href="http://www.microsoft.com/downloads/en/details.aspx?FamilyId=e1199d12-5b23-4769-b1e0-210ee147ce15&displaylang=en" target="_blank">Update for Windows Vista (32 btis)</a></li>
+                    <li><a href="http://www.microsoft.com/downloads/en/details.aspx?FamilyId=e2da6ef8-92b6-4370-9e22-2c05a8c37ab0&displaylang=en#" target="_blank">Update for Windows Vista (64 bits)</a></li>
+                    <li><a href="http://www.microsoft.com/downloads/en/details.aspx?displaylang=en&FamilyID=3021d52b-514e-41d3-ad02-438a3ba730ba" target="_blank">DirectX SDK</a></li>
+                </ul>
+            </ul>
+            <br>
+            <p>Pour visualiser des RAWs, vous devez avoir les codecs installés sur votre ordinateur:</p>
+            <ul>
+                <li><a href="http://www.usa.canon.com/cusa/windows_vista/cameras/eos_slr_camera_systems/canon_raw_codec_software#DriversAndSoftware" target="_blank">Canon raw codec</a></li>
+                <li><a href="http://www.nikonimglib.com/nefcodec/" target="_blank">Nikon raw codec - NEF codec</a></li>
+                <li><a href="http://nikonimglib.com/nrwcodec/" target="_blank">Nikon raw codec - NRW codec</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <footer>&copy; 2015 haubad.github.io</footer>
+</body>
+</html>
