@@ -114,6 +114,7 @@ img {
 footer {
     text-align: center;
     background: linear-gradient(90deg, #134e5e 10%, #60744e 90%);
+    color: white;
     border-top: 1px solid rgb(40, 40, 40);
     font-size: 14px;
     margin-top: 20px;
