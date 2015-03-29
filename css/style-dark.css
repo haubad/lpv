@@ -134,6 +134,7 @@ footer {
 	}
     
     .default, .alternate {padding: 8px;}
+    ul {padding: 0 8px 0 20px;}
     
     footer {
         margin-top: 0px;
