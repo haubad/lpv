@@ -133,6 +133,8 @@ footer {
         margin-bottom: 0px;
 	}
     
+    .default, .alternate {padding: 8px;}
+    
     footer {
         margin-top: 0px;
     }
