@@ -108,9 +108,8 @@ img {
     padding-right: 10%;
 }
 
-.tomato-text {
-    color: tomato;
-}
+.tomato {color: tomato;}
+.bold {font-weight: bold;}
 
 /* footer */
 footer {
@@ -136,7 +135,5 @@ footer {
     .default, .alternate {padding: 8px;}
     ul {padding: 0 8px 0 20px;}
     
-    footer {
-        margin-top: 0px;
-    }
+    footer {margin-top: 0px;}
 }
