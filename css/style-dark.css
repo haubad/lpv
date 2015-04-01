@@ -49,7 +49,10 @@ h1 {
     padding: 5px;
     background-color: #134e5e;
 }
-.modal-backdrop.in {opacity: 0.85;}
+.modal-backdrop.in {opacity: 0.9;}
+.outline {
+    outline: 0;
+}
 
 .default {
     background-color: #444;
