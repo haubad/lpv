@@ -87,7 +87,7 @@
     <script>
         $('#project1').on('show.bs.modal', function (event) {
             var mainWidth = $('#main').width();
-            mainWidth = (mainWidth <= 768 ? 100 : 95);
+            mainWidth = (mainWidth <= 768 ? 95 : 95);
             $('.modal-dialog').attr('style', 'width: ' + mainWidth + '%;');
             
             var who = $(event.relatedTarget);
