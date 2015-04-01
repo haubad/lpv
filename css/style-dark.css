@@ -42,10 +42,13 @@ h1 {
           	box-shadow: 5px 5px 5px #111;
 }
 
-.green {background-color: #60744e;}
 .dark {background-color: #333;}
 .left {float: left;}
-.border-zero {border-top: 0;}
+.modal-footer-css {
+    border-top: 0;
+    padding: 5px;
+    background-color: #134e5e;
+}
 .modal-backdrop.in {opacity: 0.85;}
 
 .default {
