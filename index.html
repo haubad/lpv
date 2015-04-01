@@ -68,9 +68,9 @@
         <div class="modal-dialog">
             <div class="modal-content black">
                 <div class="modal-body">
-                    <div class="container-fluid">
+                    <div class="container">
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
                                 <img class="img-responsive" id="url" src="">
                             </div>
                         </div>
@@ -87,7 +87,7 @@
     <script>
         $('#project1').on('show.bs.modal', function (event) {
             var mainWidth = $('#main').width();
-            mainWidth = (mainWidth <= 768 ? 100 : 90);
+            mainWidth = (mainWidth <= 768 ? 100 : 95);
             $('.modal-dialog').attr('style', 'width: ' + mainWidth + '%;');
             
             var who = $(event.relatedTarget);
