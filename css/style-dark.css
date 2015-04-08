@@ -42,8 +42,13 @@ h1 {
           	box-shadow: 5px 5px 5px #111;
 }
 
-.white {border: 1px solid #aaa;}
-.dark {background-color: #333;}
+.white {
+    border: 1px solid #999;
+}
+.dark {background-color: #333;
+    border-radius: 0;
+    border: 0;
+}
 .left {float: left;}
 .right {display: flex;}
 .modal-footer-css {
@@ -51,11 +56,19 @@ h1 {
     padding: 5px;
     background-color: #111;
 }
-.modal-backdrop.in {opacity: 0.6;}
+.modal-backdrop.in {
+    opacity: 0.6;
+    background-color: #aaa;
+}
+
 .btn-round {
     border-radius: 50%;
     background-color: #111;
     display: inline;
+}
+
+.btn:focus {
+    outline: none;
 }
 
 .default {
