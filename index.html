@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,9 +32,9 @@
                 <li>Mode diaporama avec des photos</li>
             </ul>
             <br>
-            <img src="images/ss1.jpg" alt="ss1.jpg" data-toggle="modal" data-target="#project1" data-whatever="images/ss1.jpg" class="cursor small-size">
+            <img src="images/ss1.jpg" alt="ss1.jpg" data-toggle="modal" data-target="#project1" data-whatever="images/ss1.jpg" class="cursor img-sm">
             <br>
-            <img src="images/ss2.jpg" alt="ss2.jpg" data-toggle="modal" data-target="#project1" data-whatever="images/ss2.jpg" class="cursor small-size">
+            <img src="images/ss2.jpg" alt="ss2.jpg" data-toggle="modal" data-target="#project1" data-whatever="images/ss2.jpg" class="cursor img-sm">
         </div>
 
         <div id="download" class='alternate'>
@@ -81,18 +81,20 @@
                     </div>
                 </div>
                 <div class="modal-footer modal-footer-css">
-                    <button type="button" class="btn btn-sm btn-primary left" onclick="previous()">&lt;</button>
-                    <button type="button" class="btn btn-sm btn-primary left" onclick="next()">&gt;</button>
-                    <button type="button" class="btn btn-sm btn-primary left" data-dismiss="modal">Fermer</button>
+                    <button type="button" class="btn btn-sm btn-primary right btn-round" onclick="previous()">&lt;</button>
+                    <button type="button" class="btn btn-sm btn-primary right btn-round" onclick="next()">&gt;</button>
+                    <button type="button" class="btn btn-sm btn-primary right btn-round" data-dismiss="modal">X</button>
                 </div>
             </div>
         </div>
     </div>
     <script>
         $('#project1').on('show.bs.modal', function (event) {
+            $(this).attr('style', 'display: flex;');
+            
             var mainWidth = $('#main').width();
             mainWidth = (mainWidth <= 768 ? 95 : 95);
-            $('.modal-dialog').attr('style', 'width: ' + mainWidth + '%;');
+            $('.modal-dialog').attr('style', 'width: ' + mainWidth + '%; margin: auto;');
             
             var who = $(event.relatedTarget);
             var url = who.data('whatever');

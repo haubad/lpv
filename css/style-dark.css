@@ -44,12 +44,18 @@ h1 {
 
 .dark {background-color: #333;}
 .left {float: left;}
+.right {display: flex;}
 .modal-footer-css {
     border-top: 0;
     padding: 5px;
-    background-color: #134e5e;
+    background-color: #111;
 }
-.modal-backdrop.in {opacity: 0.9;}
+.modal-backdrop.in {opacity: 0.6;}
+.btn-round {
+    border-radius: 50%;
+    background-color: #111;
+    display: inline;
+}
 
 .default {
     background-color: #444;
@@ -109,14 +115,11 @@ a:hover  {
     color: tomato;
 }
 
-img {
-}
-
 .cursor {
     cursor: pointer;
 }
 
-.small-size {
+.img-sm {
     width: 80%;
     padding: 0px 10% 30px 10%;
 }
