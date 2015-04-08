@@ -42,6 +42,7 @@ h1 {
           	box-shadow: 5px 5px 5px #111;
 }
 
+.white {border: 1px solid #aaa;}
 .dark {background-color: #333;}
 .left {float: left;}
 .right {display: flex;}
